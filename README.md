@@ -14,9 +14,12 @@ Picard-Lefschetz (PL) theory offers a solution to this problem by analytically c
 
 The **plind.py** package provides a Python-based implementation of this method.
 
+## Example Implementation
+Sample usage and implementation can be found in ipynb notebook.
 
 ## Installation
 To use plind.py, run pip install plind.
+
 
 
 ## Refer for more info
