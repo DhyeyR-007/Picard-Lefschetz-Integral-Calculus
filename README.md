@@ -1,24 +1,24 @@
 # plind.py Documentation
 
-## Introduction
-plind.py (Picard-Lefschetz Integration in N-Dimensions) is a Python package that implements the Picard-Lefschetz method for integrating highly oscillatory functions in any number of dimensions. 
+## Overview
+**plind.py** (Picard-Lefschetz Integration in N-Dimensions) is a Python package that facilitates the application of the Picard-Lefschetz method to calculate integrals of highly oscillatory functions in multiple dimensions.
 
-## Description
-This code is for people interested in computing integrals of the form
-$$I=\int_\Omega \text{d}^n\mathbf{x}\exp i S(\mathbf{x}\;\mathbf{\mu}).$$ 
-These integrals occur in quantum theory and wave optics. 
-Such integrals are not possible to do using traditional numerical methods due to their highly oscillatory nature. 
+## Purpose
+This package is specifically designed for users who need to compute integrals of the form:
 
-However, Picard-Lefschetz (PL) theory gives a recipe for computing them by analytically continuing the integration domain to $\mathbb{C}^n$, deforming the integration domain according to certain rules, then integrating on the new domain. 
-This package is an implementation of the PL algorithm in Python. 
+$$I = \int_\Omega \text{d}^n\mathbf{x}\exp(i S(\mathbf{x}; \mathbf{\mu}))$$
 
-For details, see papers in the [additional information](#additional-information) section. 
+These types of integrals are commonly encountered in quantum mechanics and wave optics, and pose significant challenges for traditional numerical methods due to the presence of rapid oscillations.
 
-## Install
-To use plind.py, run `pip install plind`.
+Picard-Lefschetz (PL) theory offers a solution to this problem by analytically continuing the integration domain to complex space $\mathbb{C}^n$, deforming the domain according to specific rules, and performing the integration over this newly defined region.
 
-## Use
-To use the code, follow the examples in `Example Notebook.ipynb`. 
+The **plind.py** package provides a Python-based implementation of this method.
+
+For a deeper understanding, refer to the research papers listed in the [Additional Resources](#additional-resources) section.
+
+## Installation
+To use plind.py, run pip install plind.
+
 
 ## Refer for more info
 https://p-lpi.github.io/
