@@ -15,7 +15,7 @@ The **plind.py** package provides a Python-based implementation of this method.
 ## Example Implementation
 Sample usage and implementation can be found in ipynb notebook.
 
-## Installation
+## Download
 To use plind.py, run pip install plind.
 
 
