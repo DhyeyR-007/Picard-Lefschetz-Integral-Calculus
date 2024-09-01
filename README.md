@@ -14,14 +14,15 @@ This package is an implementation of the PL algorithm in Python.
 
 For details, see papers in the [additional information](#additional-information) section. 
 
-## Installation
+## Install
 To use plind.py, run `pip install plind`.
 
-## Usage
+## Use
 To use the code, follow the examples in `Example Notebook.ipynb`. 
 
-## Additional Information
-For more information on the code and its usage, refer to the docstrings and comments within the code files, or email the authors. See also [arXiv:2103.08687](https://arxiv.org/abs/2103.08687) and [arXiv:1909.04632](https://arxiv.org/abs/1909.04632) for details on the method.
+## Refer for more info
+https://p-lpi.github.io/
 
-## Citation
-Please cite [doi:10.1093/mnras/stab2337](https://doi.org/10.1093/mnras/stab2337) if you use this code in your project.
+
+
+
